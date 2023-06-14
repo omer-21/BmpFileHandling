@@ -22,7 +22,7 @@ def write_file(file_path):
         file.write(header)
         file.write(color_table)
         file.write(data)
-    in=0
+    index=0
     for f in waves:
         f = f.split('.')[0] + '-2-.txt'    
         with open(output_path, 'w') as file:
